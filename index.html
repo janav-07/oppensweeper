@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Oppensweeper</title>
+</head>
+<body>
+    <div class="game-title">
+        <p>O P P E N S W E E P E R</p>
+    </div>
+    <div class="minesweeper-board" id="board"></div>
+    <center>
+        <div class="game-status">
+            <button id="restart-button">Restart</button>
+            <div id="mines-remaining" class="mines-remaining">Total Mines: ${numMines}</div>
+        </div>
+    </center>
+    
+    <div class="message-container">
+        <div id="status-message"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
